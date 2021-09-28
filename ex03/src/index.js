@@ -1,14 +1,12 @@
 class Person {
-    // constructor(message) {
-    //     this.message = message;
-    // }
-    
+
     static display() {
         var message = "Static method is invoked from Person class";
+        console.log(message);
     }
 
     show() {
-        
+        Person.display();
     }
 }
 
