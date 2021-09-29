@@ -11,7 +11,6 @@ class Person {
     }
 }
 
-var person = new Person("{name}", "{email}", "{age}");
 console.log(person.getPerson());
 
 module.exports = Person;
