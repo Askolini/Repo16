@@ -10,7 +10,7 @@ class Person {
         return personInfo;
     }
 }
-
+// var personInfo = "Name: " + this.name + "," + " email: " + this.email + "," + " age: " + this.age;
 console.log(person.getPerson());
 
 module.exports = Person;
