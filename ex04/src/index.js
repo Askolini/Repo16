@@ -14,6 +14,7 @@ class Pets {
 class Dog extends Pets {
     constructor(name, legs) {
         super(name, legs);
+        
     }
 
     bark() {
